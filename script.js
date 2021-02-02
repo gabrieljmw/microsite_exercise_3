@@ -1,3 +1,7 @@
+$(window).on("load", function() {
+    $(".nav a:first").click();
+})
+
 function loadpage(e) {
     e.preventDefault();
     $(".nav .nav-link.active").removeClass("active");
