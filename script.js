@@ -5,6 +5,7 @@ function start() {
 $(window).on("load", start);
 
 function loadpage(e) {
+
     e.preventDefault();
     $("#menu a.active").removeClass("active");
     $(this).addClass("active");
