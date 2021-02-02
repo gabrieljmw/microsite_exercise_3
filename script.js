@@ -11,4 +11,5 @@ function loadpage(e) {
     $(".content").load(href);
 }
 
+
 $(document).on("click", ".nav .nav-item .nav-link", loadpage);
