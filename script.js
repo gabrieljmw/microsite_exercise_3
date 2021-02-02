@@ -10,7 +10,7 @@ function loadpage(e) {
     $("#menu a.active").removeClass("active");
     $(this).addClass("active");
 
-    $(".content").load("about.html");
+    $("#content").load("about.html");
 
 }
 
